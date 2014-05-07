@@ -1,0 +1,69 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #DDDDDD;
+}
+
+div.main {
+	font-size: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #0099CC;
+	padding: 10px;
+	width: 100%;
+}
+
+div.content {
+	font-size: 15px;
+	padding: 30px;
+}
+
+div.continer-msg {
+	height: 300px;
+	border: 1 solid;
+	border-color: #0099CC;
+	padding: 10px;
+	overflow: scroll;
+	background-color: #FFFFFF;
+}
+
+a.btn-holo {
+	background-color: #0099CC;
+	border: 0;
+	border-radius:5px;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+		user-select: none;
+}
+
+a.btn-holo:hover,
+a.btn-holo:active
+a.btn-holo:focus,
+a.btn-holo:active:focus {
+	background-color: #006699;
+	border: 0;
+	border-radius:5px;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+input.input-msg {
+	border: 0;
+	padding: 10px;
+	height: 35px;
+	width: 400px;
+}
+
+input.input-user {
+	border: 0;
+	padding: 10px;
+	height: 35px;
+	width: 100px;
+}
